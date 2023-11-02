@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+
+.text-white{
+    background-color: aqua
+}
+
+.btn{
+    @apply text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900
+}
+
+@tailwind utilities;
+
+@layer components{
+    .btn2{
+        @apply text-blue bg-red-600 rounded-xl px-2 py-1 text-sm
+    }
+}
+
+@layer utilities{
+    .btn3x{
+        @apply text-blue bg-red-600 rounded-xl px-2 py-1 text-sm
+    }
+}
+
+/* .btn{
+    @apply text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900
+} */
+
+/* .text-white{
+    background-color: aqua
+} */
